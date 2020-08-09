@@ -1,0 +1,3 @@
+[submodule "Horiseon"]
+	path = Horiseon
+	url = https://github.com/CFsylvester/Horiseon.git
