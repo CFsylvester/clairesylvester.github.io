@@ -1,3 +1,8 @@
+::root {
+    --primary-color: black;
+    --secondary-color: ;
+}
+
 /*Applies to many (BODY)*/
 * {
     margin: 0;
@@ -5,7 +10,7 @@
     box-sizing: border-box;
 }
 body {
-    color: black;
+    color: var(--primary-color);
     font-family: 'Sedgwick Ave', cursive;
     background: url('/assets/images/background.jpg');
     background-size: cover;
@@ -15,15 +20,13 @@ body {
 }
 /*Header*/
 .logo {
-    display: flex
-    justify-content: space-between;
     font-size: 3vw;
     margin: 2vw 3vw;
     font-family: 'Rock Salt', cursive;
     line-height: 7vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
 }
-
 header {
     display: flex;
     justify-content: space-between;
@@ -72,7 +75,7 @@ header h2 {
     border-style: solid;
     border-color: white;
     border-width: 3vw;
-    position: relative;
+    position: inherit;
     margin: 0vw 12vw;
 }
 
@@ -101,7 +104,7 @@ header h2 {
     max-height: 10vh;
     overflow: hidden;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 15px;
 }
 .project-image {
