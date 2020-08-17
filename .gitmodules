@@ -1,3 +1,6 @@
 [submodule "Horiseon"]
 	path = Horiseon
 	url = https://github.com/CFsylvester/Horiseon.git
+[submodule "run-buddy"]
+	path = run-buddy
+	url = https://github.com/CFsylvester/run-buddy.git
