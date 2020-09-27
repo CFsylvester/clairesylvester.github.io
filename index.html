@@ -11,7 +11,7 @@
 
 <body>
     <!--Navigation--> 
-    <header>
+    <header class="flex-row">
         <div class="logo">
             <h2>Claire</h2>
             <h1>Sylvester</h1>
@@ -36,15 +36,17 @@
 
     <!--HERO-->
     <section>
-        <div class="hero flex-row">
+        <div class="hero">
+            <!--
             <img src="./assets/images/me.JPG" alt="Claire Sylvester ready to work for you"/>
+            --> 
         </div>
     </section>
     <!--End Hero-->
 
     <!--About Me-->
-    <section id="about-me">
-        <div class="flex-row">
+    <section id="about-me" class="flex-row">
+        <div>
             <article>
                 <h2>About Me</h2>
                 <p> 
@@ -58,34 +60,46 @@
 
     <!--PROJECTS-->
     <section id="my-work">
-        <div class="flex-row">
+        <div>
             <h2>My Work</h2>
         </div>
 
-        <div class="projects-gallery flex-row">
-            <figure class="project-item project-item-1">
-                <a href="./Horiseon/index.html" target="_blank">
-                    <img src="./assets/images/horiseon-homepage.jpg" class="project-image" alt="Horiseon Project Homepage" />
-                </a>
-            </figure>
-            <figure class="project-item project-item-2">
-                <a href="./run-buddy/index.html" target="_blank">
-                    <img src="./assets/images/run-buddy-homepage.jpg" class="project-image" alt="Run Buddy Project Homepage">
-                </a>
-            </figure>
-            <figure class="project-item project-item-3">
-                 <img src="./assets/images/dakotabear.JPG" class="project-image" alt="Filler Example">
-            </figure>
-            <figure class="project-item project-item-4">
-                 <img src="./assets/images/dakotabear.JPG" class="project-image" alt="Filler Example">
-            </figure>
+        <div class="container">
+            <div class="grid">
+                <figure class="project-item project-item-1">
+                    <a href="./Horiseon/index.html" target="_blank">
+                        <img src="./assets/images/horiseon-homepage.jpg" class="project-image" alt="Horiseon Project Homepage" />
+                    </a>
+                </figure>
+                <figure class="project-item project-item-2">
+                    <a href="./run-buddy/index.html" target="_blank">
+                        <img src="./assets/images/run-buddy-homepage.jpg" class="project-image" alt="Run Buddy Project Homepage">
+                    </a>
+                </figure>
+                <figure class="project-item project-item-3">
+                    <a href="https://cfsylvester.github.io/AniGame/" target="_blank">
+                        AniGame
+                        <img src="./assets/images/AniGame-homepage.png" class="project-image" alt="AniGame-Homepage">
+                    </a>
+        
+                </figure>
+                <figure class="project-item project-item-4">
+                    <img src="./assets/images/dakotabear.JPG" class="project-image" alt="Filler Example">
+                </figure>
+                <figure class="project-item project-item-5">
+                    <img src="./assets/images/dakotabear.JPG" class="project-image" alt="Filler Example">
+                </figure>
+                <figure class="project-item project-item-6">
+                    <img src="./assets/images/dakotabear.JPG" class="project-image" alt="Filler Example">
+                </figure>
+            </div>
         </div>
     </section>
     <!--End Projects-->
 
     <!--find me-->
-    <footer>
-        <div id="find-me" class="flex-row">
+    <footer class="flex-row">
+        <div id="find-me">
             <h2>Find Me On</h2>
         </div>
         <ul>
