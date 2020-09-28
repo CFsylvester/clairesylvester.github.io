@@ -3,6 +3,7 @@
 This is the website-portfolio for Claire Sylvester. It contains an "About Me" section, "Projects" section, and a "Find Me On" section. This was created as part of UPENN's Coding Bootcamp, Module 2. 
 
 ![Portfolio homepage](./assets/images/portfolio.jpg)
+[Portfolio Link](https://cfsylvester.github.io/clairesylvester.github.io/)
 
 ## Installation
 
