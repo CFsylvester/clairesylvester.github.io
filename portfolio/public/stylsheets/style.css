@@ -1,0 +1,52 @@
+:root {
+    --blue: #b8fbff; 
+    --pink: #f8c4e4; 
+}
+
+/* Main */
+body {
+    background-color: var(--blue);
+    height: 100vh;
+    margin-left: 10vh;
+    margin-right: 5vh; 
+}
+a {
+  color: var(--pink);
+}
+a:hover {
+    text-decoration: none;
+    color: white; 
+}
+/* Navigation */
+.navbar-1 {
+    height: 7vh;
+    font-size: 7vh;
+}
+.navbar-2 {
+    height: 8vh;
+    font-size: 4vh;
+    margin-left: -2vh; 
+}
+/* Side-Bar */
+.side-bar {
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: -8vh; 
+    width: 45vh; 
+    height: 85vh;
+    position: relative;
+}
+.icons {
+    border: blue;
+    border-width: 1px;
+    border-style: solid;
+    height: 25vh;
+}
+.image {
+    border: red;
+    border-width: 1px;
+    border-style: solid;
+    height: 60vh;
+
+}
