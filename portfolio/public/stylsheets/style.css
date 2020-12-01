@@ -4,49 +4,116 @@
 }
 
 /* Main */
+html {
+    margin: 0vh 10vh; 
+}
 body {
     background-color: var(--blue);
     height: 100vh;
-    margin-left: 10vh;
-    margin-right: 5vh; 
+    border: black;
+    border-width: 1px;
+    border-style: solid;
 }
-a {
+a, i {
   color: var(--pink);
 }
 a:hover {
     text-decoration: none;
     color: white; 
 }
+
 /* Navigation */
-.navbar-1 {
-    height: 7vh;
-    font-size: 7vh;
+.name-div {
+    padding-top: 8vh; 
+    width: 400px; 
+    height: 18vh;
+    font-size: 0;
+    line-height: 0;
+    float: left;
 }
-.navbar-2 {
-    height: 8vh;
-    font-size: 4vh;
-    margin-left: -2vh; 
+.nav-bar {
+    float: left;
+    height: 18vh;
+    margin-left: 400px; 
+    width: 100vw;  
 }
+.name {
+    font-size: 8vh;
+    margin-bottom: 6vh;
+    display: inline-block;
+}
+.name:hover {
+    color: var(--pink);
+}
+.title {
+    font-size: 4vh; 
+    margin: 0;
+    display: inline-block;
+}
+
 /* Side-Bar */
 .side-bar {
+    margin-top: 18vh; 
     border: black;
     border-width: 1px;
     border-style: solid;
-    margin-left: -8vh; 
-    width: 45vh; 
-    height: 85vh;
-    position: relative;
+    width: 18vh; 
+    height: 82vh;
 }
 .icons {
+    position: relative;
     border: blue;
     border-width: 1px;
     border-style: solid;
     height: 25vh;
+    font-size: 10vh;
+}
+.github {
+    position: absolute;
+    top: 0vh;
+    left: 0px;
+}
+.linkedin {
+    position: absolute;
+    top: 13vh;
+    left: 0px;
 }
 .image {
+    position: relative;
+    margin-left: -10vh; 
     border: red;
     border-width: 1px;
     border-style: solid;
-    height: 60vh;
+    height: 57vh;
+}
+.bitmoji {
+    position: absolute;
+    height: 50vh;
+    top: 7vh;
+    left: 0px;
+}
+
+/* Projects */
+.projects {
+    float: left;
+    border: yellow;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/* Media Query */
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1280px) {
 
 }
