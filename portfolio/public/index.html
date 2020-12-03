@@ -10,44 +10,59 @@
     <title>Claire Sylvester Portfolio</title>
   </head>
   
-  <body>
+
     <header>
-      <div class="name-div border border-dark">
-        <a href="/portfolio/public/index.html" class="name">Claire Sylvester</a>
-      </div>
       <nav class="nav-bar border border-dark">
-        <a class="title" href="https://www.w3schools.com/whatis/whatis_fullstack.asp#:~:text=A%20full%20stack%20web%20developer,ASP%2C%20Python%2C%20or%20Node)" target="_blank" class="title">Full-Stack Developer</a>
-        <a href="/portfolio/public/index.html">Contact</a>
-        <a href="/portfolio/public/index.html">About</a>
-        <a href="/portfolio/public/index.html">My Work</a>
+        <a class="logo" href="/portfolio/public/index.html" target="_blank" class="title">
+            <img style="height: 15rem;" src="/portfolio/public/images/logo.png">
+        </a>
+        <ul>
+          <li>
+            <a class="contact" href="/portfolio/public/index.html">Contact</a>
+          </li>
+          <li>
+            <a class="about" href="/portfolio/public/index.html">About</a>
+          </li>
+          <li>
+            <a class="my-work"href="/portfolio/public/index.html">My Work</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main>
       <section class="side-bar">
-        <div class="icons">
-          <div class="github">
-            <a href="https://github.com/CFsylvester" target="_blank">
-              <i class="fab fa-github-square"></i>
-            </a>
-          </div>
-          <div class="linkedin">
-            <a href="https://www.linkedin.com/in/claire-sylvester-386373143/" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </div>
+        <div class="github">
+          <a href="https://github.com/CFsylvester" target="_blank">
+            <i class="fab fa-github-square"></i>
+          </a>
         </div>
-        <div class="image">
+        <div class="linkedin">
+          <a href="https://www.linkedin.com/in/claire-sylvester-386373143/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+
+        <!-- <div class="image">
           <img src="./images/bitmoji.png" alt="Bitmoji" class="bitmoji">
-        </div>
+        </div> -->
+
       </section>
+
       <section class="projects">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="row d-flex">
+
+          <div class="card bg-dark text-white">
+            <img class="card-img" style="height: 15rem;" src="..." alt="Card image">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Last updated 3 mins ago</p>
+            </div>
           </div>
+
         </div>
       </section>
+
     </main>
   </body>
 </html>
