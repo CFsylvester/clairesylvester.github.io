@@ -1,0 +1,143 @@
+:root {
+    --blue: #003274; 
+    --bright-blue: #002fff; 
+}
+
+/* Header */
+/* Navigation */
+.nav-bar {
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding-right: 13vh;  */
+    /* align-items: baseline; */
+    font-size: 24px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+/* Main */
+html {
+    margin: 0vh 5vh; 
+}
+body {
+    background-color: white;
+    height: 100vh;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+}
+a {
+  color: var(--blue);
+}
+a:hover {
+    text-decoration: none;
+    color: var(--bright-blue); 
+}
+main {
+    display: flex;
+}
+
+/* Side-Bar */
+.side-bar {
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 18vh;
+    /* position: relative; */
+    font-size: 10vh;
+    text-align: center;
+}
+/* .icons {
+    position: relative;
+    border: blue;
+    border-width: 1px;
+    border-style: solid;
+    height: 25vh;
+    font-size: 10vh;
+} */
+.image {
+    margin-left: -6vh;
+    border: red;
+    border-width: 1px;
+    border-style: solid;
+    position: absolute; 
+    bottom: 0;
+}
+.bitmoji {
+    height: 43vh; 
+}
+
+/* Projects */
+.projects {
+    border: red;
+    border-width: 1px;
+    border-style: solid;
+    /* margin-left: 9vh; */
+    width: 100%;
+}
+.card {
+    border: rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    /* background-color: lightgrey; */
+}
+.card-img-overlay {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+}
+.card-img-text {
+    position: absolute;
+    top: 58px;
+    /* right: 0; */
+    /* bottom: 0; */
+    left: 40px;
+    /* padding: 0; */
+    color: black; 
+}
+.circle {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.pass-the-page {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.pass-the-page-the {
+    font-size: 12px;
+    margin-left: 26px;
+    margin-top: -6px;
+}
+.pass-the-page-sub {
+    font-size: 12px;
+    margin-left: 11px;
+}
+.stack {
+    color: rgb(77, 77, 77); 
+}
+
+/* Media Query */
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1280px) {
+
+}
