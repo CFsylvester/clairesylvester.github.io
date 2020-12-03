@@ -5,17 +5,19 @@
 
 /* Header */
 /* Navigation */
-.name-div {
-    padding-top: 4vh;
-    height: 15vh;
-    font-size: 5vh;
-}
 .nav-bar {
     display: flex;
     /* justify-content: space-between; */
     /* padding-right: 13vh;  */
     /* align-items: baseline; */
-    font-size: 3vh;
+    font-size: 24px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li:not(:last-child) {
+    margin-bottom: 5px;
 }
 
 /* Main */
@@ -46,8 +48,9 @@ main {
     border-width: 1px;
     border-style: solid;
     width: 18vh;
-    position: relative;
+    /* position: relative; */
     font-size: 10vh;
+    text-align: center;
 }
 /* .icons {
     position: relative;
@@ -57,16 +60,6 @@ main {
     height: 25vh;
     font-size: 10vh;
 } */
-.github {
-    position: absolute;
-    top: 0vh;
-    left: 0px;
-}
-.linkedin {
-    position: absolute;
-    top: 13vh;
-    left: 0px;
-}
 .image {
     margin-left: -6vh;
     border: red;
@@ -88,10 +81,48 @@ main {
     width: 100%;
 }
 .card {
-    border: white;
-    border-width: 1vh;
+    border: rgb(0, 0, 0);
+    border-width: 1px;
     border-style: solid;
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
+}
+.card-img-overlay {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+}
+.card-img-text {
+    position: absolute;
+    top: 58px;
+    /* right: 0; */
+    /* bottom: 0; */
+    left: 40px;
+    /* padding: 0; */
+    color: black; 
+}
+.circle {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.pass-the-page {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.pass-the-page-the {
+    font-size: 12px;
+    margin-left: 26px;
+    margin-top: -6px;
+}
+.pass-the-page-sub {
+    font-size: 12px;
+    margin-left: 11px;
+}
+.stack {
+    color: rgb(77, 77, 77); 
 }
 
 /* Media Query */
