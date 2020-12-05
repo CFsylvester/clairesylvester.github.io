@@ -23,6 +23,7 @@ li:not(:last-child) {
 /* Main */
 html {
     margin: 0vh 5vh; 
+    font-family: 'Josefin Sans', sans-serif;
 }
 body {
     background-color: white;
@@ -94,35 +95,9 @@ main {
     left: 0;
     padding: 0;
 }
-.card-img-text {
-    position: absolute;
-    top: 58px;
-    /* right: 0; */
-    /* bottom: 0; */
-    left: 40px;
-    /* padding: 0; */
-    color: black; 
-}
 .circle {
     margin-left: 25px;
     margin-top: 30px;
-}
-.pass-the-page {
-    font-size: 15px;
-    margin-left: 20px;
-    margin-top: -10px;
-}
-.pass-the-page-the {
-    font-size: 12px;
-    margin-left: 26px;
-    margin-top: -6px;
-}
-.pass-the-page-sub {
-    font-size: 12px;
-    margin-left: 11px;
-}
-.stack {
-    color: rgb(77, 77, 77); 
 }
 
 /* Media Query */
