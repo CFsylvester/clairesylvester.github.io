@@ -1,8 +1,6 @@
 $(".card").hover(function() {
-    $(this).find(".circle").slideUp(1000); 
-    // $(this).find(".card-img-text").hide(500); 
-}, 
+    $(this).find(".circle").stop(true).slideUp(1000); 
+},
 function() { 
-    $(this).find(".circle").slideDown(1000);
-    // $(this).find(".card-img-text").show(3500)
+    $(this).find(".circle").stop(true).slideDown(1000);
 }); 
