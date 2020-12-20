@@ -5,10 +5,9 @@
 
 html {
     height: 100%;
-    margin: 0vh 5vh; 
     font-family: 'Josefin Sans', sans-serif;
     background-color: white;
-
+    margin: 0 1vh;
 }
 h2 {
     font-size: 24px;
@@ -25,56 +24,28 @@ a:hover {
 
 /* Header */
 header {
-    background-color: white;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    display: flex;
-    border: black;
+    /* border: black;
     border-width: 1px;
-    border-style: solid;
-    height: 242px;
-
+    border-style: solid; */
 }
 /* Navigation */
 .nav-bar {
     border-style: solid;
+    position:relative;
     border-width: 3px;
     border-image: 
         linear-gradient(
             to left, hsla(214.1,100%,22.7%, 0) 0%,
             hsla(214.1,100%,22.7%,1) 50%, 
             hsla(214.1,100%,22.7%,0) 100%
-        ) 0 0 100% 0/0 0 4px 0 stretch
-    ;
+        ) 0 0 100% 0/0 0 4px 0 stretch;
     width: 100%;
-    margin-bottom: 20px;
-    position:relative
+    margin-bottom: 17px;
+}
+.logo {
+    margin-top: 8px; 
 }
 
-ul {
-    position:absolute; 
-    bottom:0px;
-    padding: 0px 40px;
-    margin-bottom: 0;
-    /* border: red;
-    border-width: 1px;
-    border-style: solid; */
-    width: 100%;
-    font-size: 30px;
-    line-height: 1px;
-    list-style-type: none;
-    text-align: justify;
-}
-ul:after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-}
-li {
-    display: inline-block;
-}
 
 /* Main */
 main {
@@ -84,13 +55,13 @@ main {
 
 /* Side-Bar */
 .side-bar {
-    border: black;
+    /* border: black;
     border-width: 1px;
-    border-style: solid;
+    border-style: solid; */
     width: 100px;
     font-size: 10vh;
     text-align: center;
-    margin-left: 40px
+    margin-left: 40px;
 }
 .icon {
     font-size: 70px;
@@ -175,6 +146,9 @@ button {
     -webkit-transition: all ease-in-out 300ms;
     transition: all ease-in-out 300ms;
 }
+.skills {
+    font-size: 30px;
+}
 button:hover {
     color: white;
     box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
@@ -190,8 +164,11 @@ button a:hover {
   
 
 /* Media Query */
-@media (min-width: 280px) {
-    
+@media (min-width: 001px) {
+    header {
+        height: 375px;
+        text-align: center;
+    }
     main {
         padding-bottom: 109px;
     }
@@ -210,19 +187,68 @@ button a:hover {
     .linkedin-icon {
         margin: 0px 15px;
     }
-}
-
-@media (min-width: 390px) {
-    .linkedin-icon {
-        margin: 0px 60px;
+    html {
+        margin: 0vh 1vh; 
+    }
+    ul {
+        position:relative; 
+        bottom:0px;
+        list-style-type: none;
+        font-size: 30px;
+        margin-bottom: 10px;
+        padding-left: 0px; 
+    }
+    .my-work {
+        padding: 15px 0;
     }
 }
 
-@media (min-width: 582px) {
-    
+@media (min-width: 390px) {
+    header {
+        height: 200px;
+        display: flex;
+    }
+    .linkedin-icon {
+        margin: 0px 60px;
+    }
+    ul {
+        position: absolute;
+        padding-left: 40px; 
+        text-align: left;
+    }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 635px) {
+    header {
+        background-color: white;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    ul {
+        margin-bottom: 0px;
+        text-align: justify;
+        padding: 0px 40px;
+        width: 100%;
+        line-height: 9px;
+        list-style-type: none;
+    }
+    ul:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+    }
+    li {
+        display: inline-block;
+    }
+    .projects .row {
+        /* justify-content: start; */
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 750px) {
     .side-bar {
         width: 100px;
         font-size: 10vh;
@@ -240,8 +266,24 @@ button a:hover {
     }
     .projects .row {
         justify-content: flex-start;
+        margin: 0 0vh;
     }
     main {
         padding-bottom: 20px;
+    }
+    html {
+        margin: 0vh 1vh; 
+    }
+}
+
+@media (min-width: 751px) {
+    .projects .row {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 999px) {
+    .projects .row {
+        justify-content: start;
     }
 }

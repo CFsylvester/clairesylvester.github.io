@@ -27,5 +27,7 @@ Through creating proper id's and links,  my portfolio has the ability to link th
 ## Contributing
 This was created through following along the UPenn Module 2 Run Buddy webpage and tweaking it for the desired outcome.  
 
+Graident Border reference: (https://css-tricks.com/examples/GradientBorder/)
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
