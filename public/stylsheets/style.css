@@ -6,8 +6,11 @@
 html {
     height: 100%;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: white;
+    background-color: #dde1e7;
     margin: 0 1vh;
+}
+body {
+    background-color: #dde1e7;
 }
 h2 {
     font-size: 24px;
@@ -27,9 +30,11 @@ header {
     /* border: black;
     border-width: 1px;
     border-style: solid; */
+
 }
 /* Navigation */
 .nav-bar {
+    background: transparent;
     border-style: solid;
     position:relative;
     border-width: 3px;
@@ -41,6 +46,7 @@ header {
         ) 0 0 100% 0/0 0 4px 0 stretch;
     width: 100%;
     margin-bottom: 17px;
+
 }
 .logo {
     margin-top: 8px; 
@@ -49,6 +55,8 @@ header {
 
 /* Main */
 main {
+    margin-top: 17px;
+
     display: flex;
     position: relative;
 }
@@ -59,23 +67,35 @@ main {
     border-width: 1px;
     border-style: solid; */
     width: 100px;
-    font-size: 10vh;
     text-align: center;
     margin-left: 40px;
+    height: 500px;
+
 }
-.icon {
+.neumorphism-button {
+    margin-top: 45px;
+    color: var(--blue);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
     font-size: 70px;
-    line-height: 60px;
-    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    border-radius: 100%;
+    background: #dedede;
+    box-shadow: 4px 4px 8px #bdbdbd, -4px -4px 8px #ffffff,
+    inset 0px 0px 0px #bdbdbd, inset 0px 0px 0px #ffffff;
+    transition: all 0.2s linear;
+    position: relative;
     cursor: pointer;
-    -webkit-transition: all ease-in-out 300ms;
-    transition: all ease-in-out 300ms;
+    
 }
-.icon:hover {
-    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
-    -webkit-transform: translate(0px, -3px) scale(1.2);
-    transform: translate(0px, -3px) scale(1.2);
+.neumorphism-button:hover {
+    color: #054982;
+    text-shadow: 0 0 15px #054982;
+    
 }
+
 
 /* Projects */
 .projects {
@@ -89,11 +109,11 @@ main {
 .projects .row {
     justify-content: flex-start;
 }
+
 .card {
-    border: rgb(0, 0, 0);
-    border-width: 1px;
-    border-style: solid;
-    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    background: #dde1e7;
+	border-radius: 5px;
+	box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
     cursor: pointer;
     -webkit-transition: all ease-in-out 300ms;
     transition: all ease-in-out 300ms;
@@ -220,7 +240,7 @@ button a:hover {
 
 @media (min-width: 635px) {
     header {
-        background-color: white;
+        background-color:#dde1e7;
         position: -webkit-sticky;
         position: sticky;
         top: 0;
@@ -251,7 +271,7 @@ button a:hover {
 @media (min-width: 750px) {
     .side-bar {
         width: 100px;
-        font-size: 10vh;
+        /* font-size: 10vh; */
         text-align: center;
         margin-left: 36px;
         bottom: inherit;
