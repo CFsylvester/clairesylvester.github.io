@@ -95,7 +95,8 @@ main {
     border-width: 1px;
     border-style: solid;
     box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4); */
-    background: #dde1e7;
+    /* background: #dde1e7; */
+    background: black;
 	border-radius: 5px;
 	box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
     cursor: pointer;
