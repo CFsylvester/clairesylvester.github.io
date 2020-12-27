@@ -108,20 +108,33 @@ main {
     transform: translate(0px, -3px) scale(1.2);
 }
 
-.card-img-overlay {
-    position: absolute;
-    top: 40px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 0;
-}
+/* .card-img-overlay {
+    
+} */
 .circle {
-    margin-left: 25px;
-    margin-top: 30px;
+    position: absolute;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 50%;
+    top: 4rem;
+    margin-left: 1.5rem;
+    height: 7rem;
+    width: 7rem;
     cursor: pointer;
     -webkit-transition: all ease-in-out 300ms;
     transition: all ease-in-out 300ms;
+}
+
+/* Specific Cards */
+.zebra {
+    height: 15rem;
+    width: 10rem;
+    border: black solid 1px;
+    background-color: #123859;
+    background-image: url(../images/full-stack/zebra-vector.png);
+    background-size: cover;
+    background-blend-mode: screen;
+    background-position: 24%;
 }
 
 
