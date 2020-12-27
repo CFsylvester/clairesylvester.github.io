@@ -25,13 +25,6 @@ a:hover {
     color: var(--blue);
 }
 
-/* Header */
-header {
-    /* border: black;
-    border-width: 1px;
-    border-style: solid; */
-    
-}
 /* Navigation */
 .nav-bar {
     border-style: solid;
