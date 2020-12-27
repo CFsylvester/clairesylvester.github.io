@@ -44,7 +44,6 @@ header {
             hsla(214.1,100%,22.7%,0) 100%
         ) 0 0 100% 0/0 0 4px 0 stretch;
     width: 100%;
-    margin-bottom: 17px;
 }
 .logo {
     margin-top: 8px; 
@@ -206,7 +205,11 @@ button a:hover {
         height: 375px;
         text-align: center;
     }
+    .nav-bar {
+        margin-bottom: 17px;
+    }
     main {
+        margin-top: 0px;
         padding-bottom: 109px;
     }
     .side-bar {
@@ -236,7 +239,7 @@ button a:hover {
         padding-left: 0px; 
     }
     .my-work {
-        padding: 15px 0;
+        padding: 5px 0;
     }
 }
 
@@ -286,6 +289,15 @@ button a:hover {
 }
 
 @media (min-width: 750px) {
+    header {
+        height: 180px;
+    }
+    main {
+        margin-top: 17px;
+    }
+    .nav-bar {
+        margin-bottom: 0px;
+    }
     .side-bar {
         width: 100px;
         font-size: 10vh;
@@ -302,7 +314,7 @@ button a:hover {
         width: 100%;
     }
     .projects .row {
-        justify-content: flex-start;
+        justify-content: center;
         margin: 0 0vh;
     }
     main {
@@ -312,12 +324,12 @@ button a:hover {
         margin: 0vh 1vh; 
     }
 }
-
 @media (min-width: 751px) {
     .projects .row {
-        justify-content: center;
+        justify-content: start;
     }
 }
+
 
 @media (min-width: 999px) {
     .projects .row {
