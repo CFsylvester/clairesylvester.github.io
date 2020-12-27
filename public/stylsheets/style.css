@@ -1,20 +1,23 @@
 :root {
     --blue: #003274; 
-    --grey: #475574; 
+    --grey: #6c757d; 
 }
 
 html {
     height: 100%;
-    font-family: 'Josefin Sans', sans-serif;
     background-color: white;
     margin: 0 1vh;
 }
-h2 {
-    font-size: 24px;
-    color: var(--blue);
-    text-align: center; 
+h3 {
+    font-weight: 700; 
+    font-size: 23px;
+}
+h6 {
+    color: var(--grey);
+    font-weight: 300;
 }
 a {
+    font-family: 'Josefin Sans', sans-serif;
     color: var(--blue);
 }
 a:hover {
@@ -108,10 +111,8 @@ main {
     transform: translate(0px, -3px) scale(1.2);
 }
 
-/* .card-img-overlay {
-    
-} */
 .circle {
+    font-family: 'Josefin Sans', sans-serif;
     position: absolute;
     background-color: white;
     border: black solid 1px;
@@ -120,11 +121,27 @@ main {
     margin-left: 1.5rem;
     height: 7rem;
     width: 7rem;
+    display: table;
     cursor: pointer;
     -webkit-transition: all ease-in-out 300ms;
     transition: all ease-in-out 300ms;
 }
-
+.circle-text {
+    position: relative;
+    display: table-cell; 
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.subtitle {
+    position: absolute;
+    bottom: 0;
+    margin-left: 21px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    line-height: 11px;
+}
 /* Specific Cards */
 .zebra {
     height: 15rem;
@@ -136,7 +153,9 @@ main {
     background-blend-mode: screen;
     background-position: 24%;
 }
-
+.the {
+    line-height: 0px;
+}
 
 /* About */
 .about {
