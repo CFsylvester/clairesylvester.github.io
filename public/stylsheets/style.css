@@ -140,7 +140,7 @@ main {
     width: 10rem;
     border: black solid 1px;
     background-color: #123859;
-    background-image: url(../images/Full-Stack/zebra-vector.png);
+    background-image: url("../images/Full-Stack/zebra-vector.png");
     background-size: cover;
     background-blend-mode: screen;
     background-position: 24%;
