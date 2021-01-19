@@ -169,14 +169,20 @@ button {
     background: var(--blue);
     text-transform: uppercase;
     padding: 5px 10px;
-    border-radius: 3px;
+    border-radius: 20px;
     box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
     cursor: pointer;
     -webkit-transition: all ease-in-out 300ms;
     transition: all ease-in-out 300ms;
 }
 .skills {
-    font-size: 30px;
+    font-size: 30px; 
+}
+.skills:hover {
+    -webkit-transform: translate(0px, 0px) scale(1);
+    transform: translate(0px, 0px) scale(1);
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+
 }
 button:hover {
     color: white;
