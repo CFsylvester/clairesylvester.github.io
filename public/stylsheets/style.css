@@ -16,6 +16,11 @@ h6 {
     color: var(--grey);
     font-weight: 300;
 }
+h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: var(--blue);
+}
 a {
     font-family: 'Josefin Sans', sans-serif;
     color: var(--blue);
@@ -152,16 +157,9 @@ main {
 /* About */
 .about {
     color: var(--blue);
-    /* border: rgb(80, 1, 69);
-    border-width: 1px;
-    border-style: solid; */
-    margin-top: 23px;
 }
 .buttons {
-    margin-top: 76px;
-    /* border: rgb(80, 1, 69);
-    border-width: 1px;
-    border-style: solid; */
+    margin-top: 40px;
 }
 button {
     color: white;
@@ -200,7 +198,7 @@ button a:hover {
 /* Media Query */
 @media (min-width: 001px) {
     header {
-        height: 375px;
+        height: 320px;
         text-align: center;
     }
     .nav-bar {
